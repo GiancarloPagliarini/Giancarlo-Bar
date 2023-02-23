@@ -1,0 +1,74 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #e15f41;
+}
+
+#header-top .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#header-top .nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+
+.title-section {
+    font-family: Pacifico, cursive;
+}
+
+.colored-text {
+    color: #e15f41;
+}
+
+#about-restaurant, #food-menu {
+    background-color: #ffeae6;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link{
+    color: #e15f41;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li a i {
+    transition: all 0.2s ease;
+}
+
+.social-links-icon i:hover {
+    transition: all 0.2s ease;
+    color: #df411d;
+}
+
+#contact button {
+    background-color: #e15f41;
+    color: #fff;
+    transition: all 0.2s ease;
+    border-bottom: 4px solid #ec9481;;
+}
+
+#contact button:hover {
+    transition: all 0.2s ease;
+    background-color: #e45130;
+    transform: translate(0px, -2px);
+}
